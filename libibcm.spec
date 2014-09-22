@@ -33,7 +33,7 @@ Static version of libibcm library.
 
 %build
 autoreconf -i
-%configure2_5x
+%configure2_5x --enable-static
 make %{?_smp_mflags}
 
 %install
