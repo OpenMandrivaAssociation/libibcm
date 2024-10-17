@@ -4,7 +4,7 @@ Release: 9%{?dist}
 Summary: Userspace InfiniBand Connection Manager
 
 License: GPLv2 or BSD
-Url: http://www.openfabrics.org/
+Url: https://www.openfabrics.org/
 Source: http://www.openfabrics.org/downloads/rdmacm/%{name}-%{version}.tar.gz
 Source1: %{name}.rpmlintrc
 
