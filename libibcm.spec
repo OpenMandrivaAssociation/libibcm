@@ -8,6 +8,8 @@ Url: https://www.openfabrics.org/
 Source: http://www.openfabrics.org/downloads/rdmacm/%{name}-%{version}.tar.gz
 Source1: %{name}.rpmlintrc
 
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: libibverbs-devel > 1.1.4, autoconf, automake, libtool
 ExcludeArch: s390 s390x
 %description
